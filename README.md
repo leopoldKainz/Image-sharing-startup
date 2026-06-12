@@ -24,7 +24,7 @@ The platform provides a free tier with core functionality and a paid subscriptio
 | End Users | Photography Enthusiasts | High-quality editing tools, community features, and a curated feed. |
 | Rohit Birdi | Lead Developer | Clear technical requirements, realistic deadlines, and clear team communication. |
 | Diego Traxler | UX/UI Designer | Clear visual requirements and consistent UX/UI testing with various users for feedback. |
-| Leopold Kant | Marketing Manager | Strong brand identity, concise target audience, and analytics for data gathering. |
+| Leopold Kainz | Marketing Manager | Strong brand identity, concise target audience, and analytics for data gathering. |
 
 ## 2. Architecture Constraints
 
