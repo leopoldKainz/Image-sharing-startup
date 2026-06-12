@@ -63,14 +63,6 @@ flowchart TB
 
     %% Direction from stores to the app (dashed to indicate external)
     AppStore -.->|"Distributed via app stores"| App
-
-    %% Styling
-    classDef indigo stroke:#818cf8,fill:#eef2ff;
-    classDef teal stroke:#2dd4bf,fill:#f0fdfa;
-    classDef violet stroke:#a78bfa,fill:#f5f3ff;
-    classDef orange stroke:#fb923c,fill:#fff7ed;
-    classDef cyan stroke:#22d3ee,fill:#ecfeff;
-    classDef sky stroke:#38bdf8,fill:#f0f9ff;
 ```
 
 | Communication Partner | Relationship to the System |
