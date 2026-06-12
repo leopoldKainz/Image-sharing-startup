@@ -45,13 +45,36 @@ The platform provides a free tier with core functionality and a paid subscriptio
 ### 3.1 Business Context
 
 ```mermaid
-flowchart LR
-    User[End Users] --> App[IMG Platform]
-    App --> Pixlr[Pixlr Image Editing]
-    App --> Payment[Payment Provider]
-    App --> Analytics[Analytics]
-    App --> Storage[Image Storage]
-    Admin[Project Team / Admins] --> App
+flowchart TB
+    %%{init: {"flowchart": {"layout": "elk"}}}%%
+    
+    %% External Entities
+    Photographer([Photographer]):::teal
+    Moderator([Moderator]):::violet
+    AppStore["Google/Apple App Store"]:::sky
+    Stripe["Stripe (Payment Provider)"]:::orange
+    Pixlr["Pixlr (Image Editing)"]:::cyan
+
+    %% Core System
+    App["Image Sharing Platform"]:::indigo
+
+    %% Relationships
+    Photographer -->|"Uploads / Views Images (Browser/Mobile)"| App
+    Moderator -->|"Moderates content"| App
+    App -->|"Allows users to edit images"| Pixlr
+    App -->|"Handles payment processing for premium users"| Stripe
+    App -->|"Users can access via mobile"| AppStore
+
+    %% Direction from stores to the app (dashed to indicate external)
+    AppStore -.->|"Distributed via app stores"| App
+
+    %% Styling
+    classDef indigo stroke:#818cf8,fill:#eef2ff;
+    classDef teal stroke:#2dd4bf,fill:#f0fdfa;
+    classDef violet stroke:#a78bfa,fill:#f5f3ff;
+    classDef orange stroke:#fb923c,fill:#fff7ed;
+    classDef cyan stroke:#22d3ee,fill:#ecfeff;
+    classDef sky stroke:#38bdf8,fill:#f0f9ff;
 ```
 
 | Communication Partner | Relationship to the System |
