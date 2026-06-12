@@ -16,15 +16,15 @@ The platform provides a free tier with core functionality and a paid subscriptio
 
 | Priority | Quality Goal | Motivation |
 | --- | --- | --- |
-| 1 | Security | User credentials and payment data must be encrypted and stored securely. Uploaded files must be scanned for malicious content and viruses. |
-| 2 | Performance | Users must be able to upload images and browse or view high-resolution images with minimal latency. Target value: below 1 second, including during peak usage. |
+| 1 | Security | User credentials and payment data must be encrypted and stored securely to comply with the law. Uploaded files must be scanned for malicious content and viruses. |
+| 2 | Performance | Users must be able to upload images and browse or view high-resolution images with minimal latency (< 1s, even during peak usage). |
 | 3 | Scalability | The infrastructure must remain stable and scale to growing user loads with minimal downtime, including more than 1000 users. |
 
 ### 1.3 Stakeholders
 
 | Stakeholder | Role | Expectations |
 | --- | --- | --- |
-| Hussin Abo Shaar | Project Manager / Client | Image-sharing platform with image-editing and community features; adherence to budget and timeline. |
+| Hussin Abo Shaar | Project Manager / Client | Image-sharing platform with image-editing and community feature. Adherence to budget and timeline. |
 | End Users | Photography Enthusiasts | High-quality editing tools, community features, and a curated feed. |
 | Rohit Birdi | Lead Developer | Clear technical requirements, realistic deadlines, and clear team communication. |
 | Diego Traxler | UX/UI Designer | Clear visual requirements and consistent UX/UI testing with various users for feedback. |
