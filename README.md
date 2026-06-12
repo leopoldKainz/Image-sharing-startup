@@ -18,7 +18,7 @@ The platform provides a free tier with core functionality and a paid subscriptio
 | --- | --- | --- |
 | 1 | Security | User credentials and payment data must be encrypted and stored securely to comply with the law. Uploaded files must be scanned for malicious content and viruses. |
 | 2 | Performance | Users must be able to upload images and browse or view high-resolution images with minimal latency (< 1s, even during peak usage). |
-| 3 | Scalability | The infrastructure must remain stable and scale to growing user loads with minimal downtime, including more than 1000 users. |
+| 3 | Availability | The infrastructure must remain stable and scale to growing user loads with minimal downtime(99%), including more than 1000 users. |
 
 ### 1.3 Stakeholders
 
