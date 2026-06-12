@@ -1,9 +1,5 @@
 # arc42 Architecture Documentation: IMG GmbH Image-Sharing Platform
 
-Version: 0.1  
-Date: 2026-06-10  
-Sources: `SWARC_1_IntroductionFinal.pptx`, `SWARC_2_Solutions_Risks(1).pptx`, `SWARC_3_Constraints.pdf`, `SWARC_4_Cross_Cutting_Concepts (2).pptx`, arc42 Template Overview (https://arc42.org/overview)
-
 ## 1. Introduction and Goals
 
 ### 1.1 Requirements Overview
